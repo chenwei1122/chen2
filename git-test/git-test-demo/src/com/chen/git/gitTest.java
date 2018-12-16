@@ -7,8 +7,9 @@ public class gitTest {
         System.out.println("hello w");
         System.out.println("hello y");
         System.out.println("hello n");
+        test1();
     }
-    public void test1(){
+    public static void test1(){
         int i=1;
         i+=100;
         System.out.println(i);
